@@ -1,15 +1,16 @@
 const router = require('express').Router();
 const { Category, Product } = require('../../models');
+const { beforeBulkDestroy } = require('../../models/Product');
 
 // The `/api/categories` endpoint
 
+// findAll categories
+// be sure to include model Product
 router.get('/', (req, res) => {
-    // findAll categories
-    // be sure to include model Product
     Category.findAll({
         include: { model: Product }
-    }).then((data) => {
-        res.json(data)
+    }).then((categoryData) => {
+        res.json(categoryData);
     })
 });
 
