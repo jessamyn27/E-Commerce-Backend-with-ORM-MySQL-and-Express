@@ -1,7 +1,6 @@
 # E-Commerce-Backend-with-ORM-MySQL-and-Express
-Back end for an e-commerce site with Express.js API, Sequelize, MySQL in Javascript ES6
 
-#### backend application using Javascript ES6, mySql, Sequelize, Insomnia, Express, Node.js packages dotenv and inquirer
+#### backend application using Javascript ES6, MySql, Sequelize, Insomnia, Express, Node.js packages dotenv and inquirer
 
 ## Table of Contents
 
