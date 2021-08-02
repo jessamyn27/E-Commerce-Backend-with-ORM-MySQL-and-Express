@@ -45,9 +45,7 @@
 
 ### Next Steps for Code
 
-- update employee role
-- add new role
-- add new departments
+- n/a
 
 
 ## Acceptance Criteria
